@@ -37,6 +37,7 @@ In *part-01* we create Docker image on ansible server through Jenkins job and pu
        - Name: `ansible_server`
        - Source files	: `webapp/target/*.war`
        - Remove prefix	: `webapp/target`
+       thsi is used to remove the parent directory and just store the .war file under remote directory
        - Remote directory	: `//opt//docker`
 
      - *Send files or execute commands over SSH*
